@@ -1,15 +1,6 @@
-
-Starter project for a reactive backend with Kotlin, Spring and MongoDB
-
-## Usual use-cases
-
-1. Create a new module
-Use the maven archetype org.jetbrains.kotlin:kotlin-archetype-jvm 1.4.32
-
-Replace the created .pom with this template:
-
-```xml
-<project xmlns="..." xmlns:xsi="..." xsi:schemaLocation="...">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>starter</artifactId>
         <groupId>com.bogdansalau</groupId>
@@ -18,17 +9,15 @@ Replace the created .pom with this template:
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>%module name%</artifactId>
-    <name>%module name%</name>
+    <artifactId>starter-repo</artifactId>
+    <name>starter-repo</name>
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- This contains Spring dependencies -->
         <dependency>
             <groupId>com.bogdansalau</groupId>
             <artifactId>starter-core</artifactId>
         </dependency>
-        <!-- Add test dependencies as needed -->
     </dependencies>
 
     <build>
@@ -61,5 +50,3 @@ Replace the created .pom with this template:
     </build>
 
 </project>
-```
-Add module to the main `pom.xml`'s `<modules>` and update the `<dependencyManagement>` accordingly.

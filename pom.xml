@@ -36,6 +36,8 @@
         <module>starter-bootstrap</module>
         <module>starter-core</module>
         <module>starter-distribution</module>
+        <module>starter-repo</module>
+        <module>starter-rest</module>
     </modules>
 
     <dependencies>
@@ -61,6 +63,11 @@
             <dependency>
                 <groupId>com.bogdansalau</groupId>
                 <artifactId>starter-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bogdansalau</groupId>
+                <artifactId>starter-repo</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
