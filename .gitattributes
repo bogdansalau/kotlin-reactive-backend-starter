@@ -1,0 +1,58 @@
+* text=auto
+
+# TEXT
+.gitignore text
+*.aj text
+*.aliases text
+*.args text
+*.bnd text
+*.cfg text
+*.css text
+*.ee text
+*.html text
+*.inf text
+*.ini text
+*.java text
+*.json text
+*.MF text
+*.options text
+*.permissions text
+*.prefs text
+*.profile text
+*.properties text
+*.props text
+*.py text
+*.response text
+*.SF text
+*.sql text
+*.txt text
+*.sh text eol=lf
+*.bash text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# XML
+.classpath text
+.project text
+*.dnx text
+*.dtd text
+*.e4xmi text
+*.exsd text
+*.launch text
+*.osgisource text
+*.product text
+*.xml text
+*.xsd text
+
+# BINARY
+*.der binary
+*.dll binary
+*.gif binary
+*.ico binary
+*.jar binary
+*.jpg binary
+*.png binary
+*.p12 binary
+*.pdb binary
+*.RSA binary
+*.zip binary

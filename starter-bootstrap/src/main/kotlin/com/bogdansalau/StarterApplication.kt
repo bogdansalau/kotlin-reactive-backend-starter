@@ -1,4 +1,4 @@
-package com.bogdansalau.starter
+package com.bogdansalau
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
